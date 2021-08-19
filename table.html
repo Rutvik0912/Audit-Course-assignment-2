@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS table-layout property</title>
+<style>             
+    table {
+        width: 250px;
+        border-collapse: separate;            
+    }
+    table, tr, th, td{
+        border: 1px solid #000000;
+    }
+    .auto {
+        table-layout: auto;
+    }
+    .fixed {
+        table-layout: fixed;
+    }
+    td{
+        width: 50%;
+    }
+</style>
+</head>
+<body>
+    <table class="auto">
+        <caption>Example 1. Auto</caption>
+        <tr>
+            <th>Name</th>
+            <td>Suresh</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>Suresh@mail.com</td>
+        </tr>
+    </table>
+    <br>
+    <table class="fixed">
+        <caption>Example 2. Fixed</caption>
+        <tr>
+            <th>Name</th>
+            <td>Mahesh</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>mahesh@mail.com</td>
+        </tr>
+    </table>
+</body>
+</html>
