@@ -1,1 +1,1 @@
-# Audit-Course-assignment-2
+Properties of CSS
